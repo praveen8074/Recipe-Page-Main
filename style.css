@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+}
+.frame{
+    margin: 30px;
+  
+}
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0px;
+    gap: 20px;
+}
+.info h1{
+    font-size: 30px;
+    font-family: "Young Serif", serif;
+}
+.info p{
+    font-size: 15px;
+    color:hsl(30, 10%, 34%);
+}
+.time{
+    padding: 15px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.time h3{
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Young Serif", serif;
+}
+.time span{
+    color: hsl(24, 5%, 18%);
+    font-weight: bold;
+}
+.time span+span{
+    color:hsl(30, 10%, 34%);
+}
+.time li{
+    color:hsl(332, 51%, 32%) ;
+    margin: 0px 20px;
+    padding: 10px 0px;
+   
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px; 
+    margin-top: 20px;
+}
+.items h2{
+    font-size: 25px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+.items ul{
+    color: hsl(14, 45%, 36%) ;
+    
+    
+}
+.items li{
+    padding: 10px 0px;
+    margin-left: 25px;
+    
+
+}
+.items span{
+    color: hsl(30, 10%, 34%);
+}
+hr{
+    margin:20px 0px;
+    color:hsl(330, 100%, 98%) ;
+}
+.inst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px; 
+    margin-top: 20px;
+
+}
+.inst h2{
+    color: hsl(14, 45%, 36%) ;
+    font-size: 25px;
+    font-family: "Young Serif", serif;
+}
+.inst ol{
+    color: hsl(14, 45%, 36%);
+    margin-left: 20px;
+}
+.inst span{
+    color:  hsl(24, 5%, 18%);
+    font-weight: bold;
+}
+.inst span+span{
+    color: hsl(30, 10%, 34%);
+    font-size: 15px;
+}
+.inst li{
+    padding: 10px 0px;
+
+}
+.nut{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px 0px;
+}
+.nut h2{
+    font-size: 25px;
+    color:hsl(14, 45%, 36%) ;
+    font-family: "Young Serif", serif;
+}
+.nut p{
+    font-size: 15px;
+    color: hsl(30, 10%, 34%);
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.one,.two,.three,.four{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.list hr{
+    width: 680px;
+}
+.list p{
+    font-size: 15px;
+    color:  hsl(30, 10%, 34%);
+    margin-left: 30px;
+}
+.one span {
+    font-size: 15px;
+    color: hsl(14, 45%, 36%);
+    margin-left: 220px;
+    font-weight: bold;
+}
+.two span{
+    margin-left: 240px;
+    font-weight: bold;
+}
+.three span{
+    margin-left: 230px;
+    font-weight: bold;
+}
+.four span{
+    margin-left: 250px;
+    font-weight: bold;
+}
+.attribution { 
+    font-size: 15px; text-align: center; 
+    color: hsl(14, 45%, 36%);
+    margin-top: 30px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
